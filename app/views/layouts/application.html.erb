@@ -29,7 +29,20 @@
 	<hr />
 	<br class="clear" />
 
+<div class="container">
 <%= yield %>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="col-xs-6">
+			<%= link_to "I haven't had enough, I need more", '#' , :class => 'next-quote' %>
+		</div>
+		<div class="col-xs-6 footer-blurb">
+			Created by <a href="http://jennawang.droppages.com" target="_blank">Jenna</a> with help from <a href="http://nbc.com/parks-and-recreation" target="_blank">Parks & Rec</a> and coffee.
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
