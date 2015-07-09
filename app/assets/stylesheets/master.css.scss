@@ -43,6 +43,10 @@
 	letter-spacing: -0.5px;
 }
 
+.links a:hover {
+	text-decoration:none;
+}
+
 header {
 	border-top: 9px solid #222222;
 }
@@ -78,4 +82,6 @@ h2 {
   font-size: 12px;
 }
 
-
+.logo:hover {
+	text-decoration:none;
+}
